@@ -21,7 +21,9 @@ export default class App extends Component<Props> {
   render() {
     return (
       <View style={styles.container}>
-      <Judul/>
+      <Judul pro="Login"/>
+      <Judul pro="Form"/>
+      <Judul pro="Biodata"/>
         <Text style={styles.welcome}>
         Hai!
         </Text>
