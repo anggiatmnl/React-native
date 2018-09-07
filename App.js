@@ -4,6 +4,7 @@ import {
   Platform,
   StyleSheet,
   Text,
+  Image, 
   View
 } from 'react-native';
 
@@ -31,6 +32,7 @@ export default class App extends Component<Props> {
         <Text style={styles.instructions}>
         Absen : 04
         </Text>
+        <Image source={require('./a.png')} style={{width:200,height:200}}/>
       </View>
     );
   }
